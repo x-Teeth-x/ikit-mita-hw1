@@ -14,7 +14,7 @@ namespace ConsoleCat
             Console.WriteLine("Добрый день. Какого возраста кошку вы хотите? Укажите возраст в годах.");
             string age = Console.ReadLine();
             Cat cat = new Cat(age, 5);
-            CatColor col = new CatColor("Белый", "Зелёный");
+            CatColor col = new CatColor("Белый","Зелёный");
             cat.Color = col;
             Console.Clear();
             while (true)
