@@ -1,0 +1,4 @@
+c:\users\nastya\documents\visual studio 2017\Projects\ConsoleCat\Model\bin\Debug\Model.dll
+c:\users\nastya\documents\visual studio 2017\Projects\ConsoleCat\Model\bin\Debug\Model.pdb
+c:\users\nastya\documents\visual studio 2017\Projects\ConsoleCat\Model\obj\Debug\Model.dll
+c:\users\nastya\documents\visual studio 2017\Projects\ConsoleCat\Model\obj\Debug\Model.pdb
