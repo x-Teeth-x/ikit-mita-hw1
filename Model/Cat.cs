@@ -18,7 +18,7 @@ namespace Model
             get
             { return _name; }
         }
-        public string Age { get; }
+        public string Age { get; } //close #1
         public CatColor Color { get; set; }
         private int _health;
         public Cat(string age, int health)
