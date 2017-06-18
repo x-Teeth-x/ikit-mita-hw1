@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Model
 {
@@ -22,25 +18,25 @@ namespace Model
             get
             { return _name; }
         }
-        public readonly string Age;
+        public string Age { get; }
         public CatColor Color { get; set; }
-        private int _heath { get; set; }
-        public Cat(string age, int heath)
+        private int _health;
+        public Cat(string age, int health)
         {
             Age = age;
-            _heath = heath;
+            _health = health;
         }
         public int Feed()
         {
-            return _heath = _heath + 1;
+            return _health = _health + 1;
         }
         public int Punish()
         {
-            return _heath = _heath - 1;
+            return _health = _health - 1;
         }
         public string CurrentColor()
         {
-            if (this._heath < 0)
+            if (this._health < 0)
             { return this.Color.SickColor; }
             else return this.Color.HeathyColor;
 
